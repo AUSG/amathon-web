@@ -1,6 +1,6 @@
 .ausg {
   // background-color: #7950F2;
-  padding: 2rem 2rem 15rem;
+  padding: 0 0 15rem;
   position: relative;
 }
 
@@ -8,16 +8,36 @@
   color: #fff;
   line-height: 166%;
   margin-bottom: 5rem;
-  padding-left: 5rem;
-  width: 33%;
+  padding-left: 7rem;
+  width: 40%;
   word-break: keep-all;
+  @include mq($until: xlarge) {
+    padding: 0 4rem;
+  }
+  @include mq($until: large) {
+    width: 50%;
+  }
+  @include mq($until: medium) {
+    padding: 0 2rem;
+    width: 100%;
+  }
 }
 
 .ausg-activities {
   color: #FF9900;
   line-height: 166%;
-  padding-left: 5rem;
-  width: 33%;
+  padding-left: 7rem;
+  width: 40%;
+  @include mq($until: xlarge) {
+    padding-left: 4rem;
+  }
+  @include mq($until: large) {
+    width: 50%;
+  }
+  @include mq($until: medium) {
+    padding: 0 2rem;
+    width: 100%;
+  }
 }
 
 .ausg-activities-background {
@@ -26,6 +46,11 @@
   height: 17rem;
   position: relative;
   top: -10rem;
+  z-index: -1;
+  margin-bottom: -6rem;
+  @include mq($until: medium) {
+    width: 66%;
+  }
 }
 
 .ausg-photo-1 {
@@ -33,29 +58,64 @@
   background-position: 50% 50%;
   background-image: url('../assets/ausg-photo-1.jpg');
   position: absolute;
-  width: 60%;
+  width: 50%;
   height: 20rem;
   top: 3.5rem;
-  right: 0;
-  transform: translateX(3.5rem);
+  right: 8rem;
+  // transform: translateX(3.5rem);
+  @include mq($until: xlarge) {
+    right: 0;
+  }
+  @include mq($until: medium) {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 4rem;
+    // margin-bottom: 4rem;
+    width: 100%;
+    // transform: translateX(-2rem);
+  }
 }
 .ausg-photo-2 {
   background-size: cover;
   background-position: 50% 50%;
   background-image: url('../assets/ausg-photo-2.jpg');
   position: absolute;
-  width: 45%;
+  width: 40%;
   height: 23.5rem;
   top: 20rem;
-  right: 0;
+  right: 5rem;
+  @include mq($until: xlarge) {
+    right: 0;
+  }
+  @include mq($until: medium) {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 4rem;
+    width: 100%;
+    // transform: translateX(0);
+  }
 }
 .ausg-photo-3 {
   background-size: cover;
   background-position: 50% 50%;
   background-image: url('../assets/ausg-photo-3.jpg');
   position: absolute;
-  width: 66%;
+  width: 50%;
   height: 20rem;
   top: 40rem;
-  left: 0;
+  left: 10rem;
+  @include mq($until: xlarge) {
+    left: 4rem;
+    width: 66%;
+  }
+  @include mq($until: medium) {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 4rem;
+    width: 100%;
+    // transform: translateX(-2rem);
+  }
 }

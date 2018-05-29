@@ -1,9 +1,11 @@
 <template>
   <div class="ausg">
+    <div class="ausg-photo-1"></div>
     <div class="ausg-introduction">
       <h4>AUSG</h4>
       <p>최신 IT기술과 클라우드에 대한 이해를 바탕으로 AWS를 학습하고 전파하는 대학생 그룹</p>
     </div>
+    <div class="ausg-photo-2"></div>
     <div class="ausg-activities">
       <h4>Activities</h4>
       <p>
@@ -17,8 +19,6 @@
       </p>
     </div>
     <div class="ausg-activities-background"></div>
-    <div class="ausg-photo-1"></div>
-    <div class="ausg-photo-2"></div>
     <div class="ausg-photo-3"></div>
   </div>
 </template>
