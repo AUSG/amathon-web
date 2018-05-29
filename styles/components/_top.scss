@@ -5,8 +5,8 @@
   height: 50px;
   padding: 0 1rem;
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
   z-index: 1;
 
   &__logo {
@@ -35,7 +35,7 @@
   }
   &__button {
     align-items: center;
-    background: linear-gradient(#FFC153, #FFAD42);
+    background: linear-gradient(#ffc153, #ffad42);
     border-radius: .25rem;
     // color: rgb(0, 0, 0);
     display: flex;
@@ -46,15 +46,15 @@
     transition: box-shadow .2s;
     // text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
     img {
-      margin-right: .5rem;
       // width: .6rem;
       height: 1rem;
+      margin-right: .5rem;
     }
     label {
       color: rgb(0, 0, 0);
       cursor: pointer;
-      font-size: .8rem;
       flex: 1;
+      font-size: .8rem;
       text-decoration: none;
       text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
       white-space: nowrap;
