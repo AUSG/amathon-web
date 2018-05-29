@@ -1,0 +1,21 @@
+{
+  "name": "amathon-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tony Won <jee@hyuk.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx parcel index.html"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.3.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "sass-mq": "^4.0.2",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}

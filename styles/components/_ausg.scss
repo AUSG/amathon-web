@@ -1,0 +1,61 @@
+.ausg {
+  // background-color: #7950F2;
+  padding: 2rem 2rem 15rem;
+  position: relative;
+}
+
+.ausg-introduction {
+  color: #fff;
+  line-height: 166%;
+  margin-bottom: 5rem;
+  padding-left: 5rem;
+  width: 33%;
+  word-break: keep-all;
+}
+
+.ausg-activities {
+  color: #FF9900;
+  line-height: 166%;
+  padding-left: 5rem;
+  width: 33%;
+}
+
+.ausg-activities-background {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+  width: 33%;
+  height: 17rem;
+  position: relative;
+  top: -10rem;
+}
+
+.ausg-photo-1 {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../assets/ausg-photo-1.jpg');
+  position: absolute;
+  width: 60%;
+  height: 20rem;
+  top: 3.5rem;
+  right: 0;
+  transform: translateX(3.5rem);
+}
+.ausg-photo-2 {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../assets/ausg-photo-2.jpg');
+  position: absolute;
+  width: 45%;
+  height: 23.5rem;
+  top: 20rem;
+  right: 0;
+}
+.ausg-photo-3 {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../assets/ausg-photo-3.jpg');
+  position: absolute;
+  width: 66%;
+  height: 20rem;
+  top: 40rem;
+  left: 0;
+}

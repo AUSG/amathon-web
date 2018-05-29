@@ -1,0 +1,10 @@
+$mq-responsive: true;
+$mq-breakpoints: (
+  xsmall: 428px,
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px
+);
+// $mq-show-breakpoints: (xsmall, small, medium, large, xlarge);
+@import 'sass-mq';
