@@ -1,1 +1,103 @@
-.awskrug {}
+.awskrug {
+  // background-color: #7950F2;
+  padding: 0 0 24rem;
+  position: relative;
+  @include mq($until: medium) {
+    padding: 0;
+  }
+}
+
+.awskrug-introduction {
+  color: #fff;
+  line-height: 166%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  padding-left: 50%;
+  word-break: keep-all;
+  @include mq($until: medium) {
+    padding: 0 2rem;
+    width: 100%;
+  }
+}
+
+.awskrug-activities {
+  color: #f90;
+  line-height: 166%;
+  padding-left: 50%;
+  @include mq($until: medium) {
+    padding: 0 2rem;
+    width: 100%;
+  }
+}
+
+.awskrug-activities-background {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+  height: 17rem;
+  left: 50%;
+  margin-bottom: -6rem;
+  position: relative;
+  top: -15rem;
+  transform: rotate(90deg);
+  width: 33%;
+  z-index: -1;
+  @include mq($until: medium) {
+    left: 35%;
+    top: -14rem;
+    width: 66%;
+  }
+}
+
+.awskrug-photo-1 {
+  background-image: url('../assets/awskrug-photo-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20rem;
+  position: absolute;
+  right: 55%;
+  top: 3.5rem;
+  width: 55%;
+  // transform: translateX(3.5rem);
+  @include mq($until: medium) {
+    margin: 0 0 4rem;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+.awskrug-photo-2 {
+  background-image: url('../assets/awskrug-photo-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23.5rem;
+  position: absolute;
+  right: 60%;
+  top: 20rem;
+  width: 40%;
+  @include mq($until: medium) {
+    left: 0;
+    margin-bottom: 4rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+    // transform: translateX(0);
+  }
+}
+.awskrug-photo-3 {
+  background-image: url('../assets/awskrug-photo-3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20rem;
+  left: 35%;
+  position: absolute;
+  top: 40rem;
+  width: 60%;
+  @include mq($until: medium) {
+    left: 0;
+    margin-bottom: 4rem;
+    position: relative;
+    top: 0;
+    width: 100%;
+    // transform: translateX(-2rem);
+  }
+}

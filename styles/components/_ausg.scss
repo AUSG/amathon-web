@@ -1,13 +1,17 @@
 .ausg {
   // background-color: #7950F2;
-  padding: 0 0 15rem;
+  padding: 0 0 24rem;
   position: relative;
+  @include mq($until: medium) {
+    padding: 0;
+  }
 }
 
 .ausg-introduction {
   color: #fff;
   line-height: 166%;
   margin-bottom: 5rem;
+  margin-top: 5rem;
   padding-left: 7rem;
   width: 40%;
   word-break: keep-all;
@@ -112,7 +116,7 @@
   }
   @include mq($until: medium) {
     left: 0;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
     position: relative;
     top: 0;
     width: 100%;

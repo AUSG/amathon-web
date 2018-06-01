@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <a href="#" class="top__logo">
-      <img src="../assets/top-logo.png" />
+      <img src="../assets/top-logo.svg" />
     </a>
     <div class="top__space"></div>
     <nav>
