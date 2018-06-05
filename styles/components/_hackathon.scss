@@ -60,15 +60,15 @@
   color: #f90;
   line-height: 166%;
   padding-left: 7rem;
-  width: 60%;
+  width: 70%;
   @include mq($until: xlarge) {
     padding-left: 4rem;
   }
   @include mq($until: large) {
-    width: 50%;
+    width: 70%;
   }
   @include mq($until: medium) {
-    padding: 0 2rem;
+    padding: 0 3rem;
     width: 100%;
   }
 }
