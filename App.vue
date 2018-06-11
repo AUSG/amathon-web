@@ -2,8 +2,8 @@
   <div class="app">
     <Top />
     <Hero />
-    <AUSG />
     <AWSKRUG />
+    <AUSG />    
     <Hackathon />
     <RegisterButton />
   </div>
@@ -13,8 +13,8 @@
 import Top from './components/Top.vue'
 import RegisterButton from './components/RegisterButton.vue'
 import Hero from './components/Hero.vue'
-import AUSG from './components/AUSG.vue'
 import AWSKRUG from './components/AWSKRUG.vue'
+import AUSG from './components/AUSG.vue'
 import Hackathon from './components/Hackathon.vue'
 
 export default {
@@ -22,8 +22,8 @@ export default {
     Top,
     Hero,
     RegisterButton,
-    AUSG,
     AWSKRUG,
+    AUSG,    
     Hackathon,
   },
 }

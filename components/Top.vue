@@ -5,8 +5,8 @@
     </a>
     <div class="top__space"></div>
     <nav>
-      <a href="#">AUSG</a>
       <a href="#">AWSKRUG</a>
+      <a href="#">AUSG</a>      
       <a href="#">Hackathon</a>
     </nav>
     <a href="#" class="top__button">
