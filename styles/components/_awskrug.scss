@@ -1,6 +1,6 @@
 .awskrug {
   // background-color: #7950F2;
-  padding: 0 0 24rem;
+  padding: 1rem 0 24rem;
   position: relative;
   @include mq($until: medium) {
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 .awskrug-introduction {
-  color: #fff;
+  color: rgba(255, 255, 255, .8);
   line-height: 166%;
   margin-bottom: 5rem;
   margin-top: 5rem;
@@ -17,6 +17,17 @@
   @include mq($until: medium) {
     padding: 0 2rem;
     width: 100%;
+  }
+  ul {
+    li {
+      a {
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 
@@ -54,7 +65,7 @@
   height: 20rem;
   position: absolute;
   right: 55%;
-  top: 3.5rem;
+  top: 8.5rem;
   width: 55%;
   // transform: translateX(3.5rem);
   @include mq($until: medium) {
@@ -72,7 +83,7 @@
   height: 23.5rem;
   position: absolute;
   right: 60%;
-  top: 20rem;
+  top: 25rem;
   width: 40%;
   @include mq($until: medium) {
     left: 0;
@@ -90,7 +101,7 @@
   height: 20rem;
   left: 35%;
   position: absolute;
-  top: 40rem;
+  top: 45rem;
   width: 60%;
   @include mq($until: medium) {
     left: 0;

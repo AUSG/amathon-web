@@ -1,6 +1,6 @@
 .ausg {
   // background-color: #7950F2;
-  padding: 0 0 24rem;
+  padding: 5rem 0 24rem;
   position: relative;
   @include mq($until: medium) {
     padding: 0;
@@ -64,7 +64,7 @@
   height: 20rem;
   position: absolute;
   right: 8rem;
-  top: 3.5rem;
+  top: 8.5rem;
   width: 50%;
   // transform: translateX(3.5rem);
   @include mq($until: xlarge) {
@@ -87,7 +87,7 @@
   height: 23.5rem;
   position: absolute;
   right: 5rem;
-  top: 20rem;
+  top: 25rem;
   width: 40%;
   @include mq($until: xlarge) {
     right: 0;
@@ -108,7 +108,7 @@
   height: 20rem;
   left: 10rem;
   position: absolute;
-  top: 40rem;
+  top: 45rem;
   width: 50%;
   @include mq($until: xlarge) {
     left: 4rem;

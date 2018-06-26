@@ -1,5 +1,5 @@
 <template>
-  <div class="ausg">
+  <div class="ausg" id="ausg">
     <div class="ausg-photo-1"></div>
     <div class="ausg-introduction">
       <h4>AUSG</h4>

@@ -2,9 +2,9 @@
   <div class="app">
     <Top />
     <Hero />
+    <Amathon />
     <AWSKRUG />
     <AUSG />    
-    <Hackathon />
     <RegisterButton />
   </div>
 </template>
@@ -15,7 +15,7 @@ import RegisterButton from './components/RegisterButton.vue'
 import Hero from './components/Hero.vue'
 import AWSKRUG from './components/AWSKRUG.vue'
 import AUSG from './components/AUSG.vue'
-import Hackathon from './components/Hackathon.vue'
+import Amathon from './components/Amathon.vue'
 
 export default {
   components: {
@@ -24,7 +24,7 @@ export default {
     RegisterButton,
     AWSKRUG,
     AUSG,    
-    Hackathon,
+    Amathon,
   },
 }
 </script>

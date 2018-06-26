@@ -5,11 +5,11 @@
     </a>
     <div class="top__space"></div>
     <nav>
-      <a href="#">AWSKRUG</a>
-      <a href="#">AUSG</a>      
-      <a href="#">Hackathon</a>
+      <a href="#amathon">Amathon</a>
+      <a href="#awskrug">AWSKRUG</a>
+      <a href="#ausg">AUSG</a>      
     </nav>
-    <a href="#" class="top__button">
+    <a class="top__button" @click="apply">
       <img src="../assets/clipboard.svg" />
       <label>지원하기</label>
     </a>
@@ -17,5 +17,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    apply() {
+      window.alert('7/2에 오픈됩니다')
+    },
+  },
+}
 </script>
