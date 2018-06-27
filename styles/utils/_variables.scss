@@ -9,4 +9,4 @@ $mq-breakpoints: (
   xlarge: 1200px
 );
 // $mq-show-breakpoints: (xsmall, small, medium, large, xlarge);
-@import 'sass-mq';
+@import '../../node_modules/sass-mq/_mq';
