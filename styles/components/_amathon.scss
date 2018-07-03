@@ -81,6 +81,28 @@
   }
 }
 
+.amathon-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  @include mq($until: medium) {
+    display: block;
+    text-align: center;
+  }
+  &__logo {
+    margin-right: 3rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    @include mq($until: medium) {
+      margin: 0 0 3rem;
+    }
+    img {
+      max-height: 3rem;
+    }
+  }
+}
+
 .amathon-schedule {
   // color: #f90;
   // line-height: 166%;

@@ -22,14 +22,14 @@
       <li>진행일자 : 2018년 7월 20(금) ~ 7월 21(토)</li>
       <li>주최 : AWSKRUG - AUSG</li>
       <li>장소 : 마루 180 B1 이벤트홀</li>
-      <li>시간 : 13:00 (금) ~ 12:00(토)</li>
-      <li>목표 참석 인원 : 60명</li>
+      <li>시간 : 13:00(금) ~ 12:00(토)</li>
       <li>후원 : Megazone</li>
-      <li>스타트업 : Movilest, 조인앤조인</li>
+      <li>스타트업 : Movilest, 조인앤조인, 이리온 컴퍼니, 마피아 컴퍼니</li>
+      <li>참가대상: AWS와 스타트업에 관심이 있는 대학생 or 주니어 개발자 & 디자이너</li>
       <li>참가비 : 10,000원</li>
-      <li>모집 시작 : 7월 2일</li>
-      <li>참가자 발표 : 7월 15일</li>
-      <li>참가 대상 : AWS와 스타트업에 관심이 있는 대학생 or 주니어 개발자</li>
+      <li>신청기간 : 7.4(수) ~ 7.14(토) 오후 11시</li>
+      <li>참가자 발표 : 7.15(일) 개별안내</li>
+      <li>참가자 혜택 : AWS Credit & 굿즈, 스타트업 리크루팅, 간식 무한제공, 시상품</li>
       <li>해커톤 방식
         <ul>
           <li>참가 신청 시 희망 주제 선택</li>
@@ -46,16 +46,31 @@
       <li>시간 : 19:00 ~ 21:00</li>
       <li>장소 : 서울 역삼역 GS타워 12층 AWS Korea</li>
       <li>주최 : AWSKRUG University Student Group (AUSG)</li>
-      <li>대상 : Amathon 참가자</li>
+      <li>대상 : Amathon 지원자 모두</li>
       <li>내용
         <ul>
           <li>Serverless Crawling & Data Analysis - Movilest CTO, 변규현</li>
-          <li>Serverless Framework으로 SPA 배포하기 - Erion CTO, 원지혁</li>
+          <li>Serverless Framework으로 SPA 배포하기 - 이리온컴퍼니 CTO, 원지혁</li>
           <li>EC2 + S3 + RDS를 사용해 Django 웹 서버 구축하기 - AUSG, 김현중</li>
           <li>Amazon SageMaker로 MNIST 머신러닝 맛보기 - AUSG, 남궁선</li>
         </ul>
       </li>
     </ul>
+  </div>
+
+  <div class="amathon-logos">
+    <div class="amathon-logos__logo">
+      <img src="../assets/ausg_logo.png" />
+    </div>
+    <div class="amathon-logos__logo">
+      <img src="../assets/aws_logo.png" />
+    </div>
+    <div class="amathon-logos__logo">
+      <img src="../assets/awskrug_logo.png" />
+    </div>
+    <div class="amathon-logos__logo">
+      <img src="../assets/megazone_logo.png" />
+    </div>
   </div>
 
   <div class="amathon-schedule">
@@ -83,7 +98,7 @@
           <td>AWS 개회사 (AWS 전제민 이사)</td>
         </tr>
         <tr>
-          <td>AWSKRUG 개회사</td>
+          <td>AWSKRUG 개회사 (AWSKRUG 박상욱 리더)</td>
         </tr>
         <tr>
           <td>AUSG 개회사 및 행사안내 (AUSG 남궁선 리더)</td>
@@ -105,12 +120,9 @@
           <td>Ice Breaking</td>
         </tr>
         <tr>
-          <td rowspan="2">후원사 세션</td>
-          <td rowspan="2">16:00 ~ 17:00</td>
-          <td>(미정)</td>
-        </tr>
-        <tr>
-          <td>(미정)</td>
+          <td>후원사 세션</td>
+          <td>16:00 ~ 17:00</td>
+          <td>Megazone</td>
         </tr>
         <tr>
           <td>저녁식사</td>
